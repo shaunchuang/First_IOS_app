@@ -20,7 +20,8 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title2)
-                .foregroundColor(.green)
+                    .fontWeight(.black)
+                    .foregroundColor(.green)
                 HStack {
                     Text(/*@START_MENU_TOKEN@*/"Joshua Tree National Park"/*@END_MENU_TOKEN@*/)
                         .font(.subheadline)
